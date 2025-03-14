@@ -11,5 +11,5 @@ Executing scripts directly from the internet, like with `bash <(curl ...)`, is g
 ## 🎮 How to play
 
 ```
-bash <(curl -s https://raw.githubusercontent.com/rickvanderwolk/garage-8/refs/heads/main/rps/game.sh)
+bash <(curl -s https://raw.githubusercontent.com/rickvanderwolk/rps/refs/heads/main/game.sh)
 ```
