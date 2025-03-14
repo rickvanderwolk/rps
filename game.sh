@@ -112,7 +112,6 @@ while true; do
             strategies=("random" "repeat-last" "counter-last" "avoid-repeat" "mimic-pattern")
             computer_strategy=${strategies[$RANDOM % ${#strategies[@]}]}
             strategy_switch_counter=$((RANDOM % 10 + 1))
-            echo "Computer switched strategy to: '$computer_strategy'"
         fi
 
         last_computer_choice="$computer_choice"
